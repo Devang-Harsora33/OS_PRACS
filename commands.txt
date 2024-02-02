@@ -1,0 +1,63 @@
+pwd
+mkdir student
+ls
+cd
+rmdir
+touch
+cat
+mv
+cp
+rm
+cd /home
+cd ..
+cd ../..
+cd
+cd~user1
+cd - 
+cp file1 file2
+cd dir/* .
+cp -a /tmp/dir1
+cp -a dir1 dir2
+cp file file1
+iconv -l
+iconv -f fromEncoding -t toEncoding inputFile > 
+find . -maxdepth 1 - name *.jpg -print -exec convert 
+ln -s file1 file2 
+ls 
+ls -F
+ls -l
+ls -a
+ls *[0-9]*
+lstree
+mkdir dir1
+mkdir dir1 dir2
+mkdir -p /tmp/dir1/dir2
+mv dir1 new_dir
+pwd
+rm -rf file1
+rm -rf dir1 dir2
+rmdir dir1 
+touch -t 0712250000 file1
+tree
+
+.\admin
+Engineer@917
+
+
+ps axl | head -n 10
+ps -eo pid,ppid,cmd,%mem,%cpu --sort=%mem | head
+who -u
+who -u | wc -l
+whoami
+uname 
+pwd
+uname
+uname -a 
+uname -r
+cat > abc
+ls
+sort abc
+sort abc>lmn.txt
+ls
+cat lmn.txt
+awk '{print $1 "\t" $2}' abc orange kiwi grapes mangoes
